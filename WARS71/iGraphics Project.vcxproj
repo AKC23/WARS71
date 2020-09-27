@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BCCFB46-68E8-42DD-BCB6-BD2EED857D7F}</ProjectGuid>
+    <RootNamespace>iGraphicsProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h" />
+    <ClInclude Include="glaux.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="myheader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0.bmp" />
+    <None Include="1.bmp" />
+    <None Include="10.bmp" />
+    <None Include="2.bmp" />
+    <None Include="3.bmp" />
+    <None Include="4.bmp" />
+    <None Include="5.bmp" />
+    <None Include="6.bmp" />
+    <None Include="7.bmp" />
+    <None Include="8.bmp" />
+    <None Include="9.bmp" />
+    <None Include="bdbomb.bmp" />
+    <None Include="bdshoot.bmp" />
+    <None Include="bdshoot2.bmp" />
+    <None Include="bdshoot3.bmp" />
+    <None Include="bdt.bmp" />
+    <None Include="bdt2.bmp" />
+    <None Include="bdt3.bmp" />
+    <None Include="bomb2.bmp" />
+    <None Include="bomb3.bmp" />
+    <None Include="control.bmp" />
+    <None Include="control1.bmp" />
+    <None Include="credit.bmp" />
+    <None Include="credit2.bmp" />
+    <None Include="e1.bmp" />
+    <None Include="e2.bmp" />
+    <None Include="e3.bmp" />
+    <None Include="e4.bmp" />
+    <None Include="e5.bmp" />
+    <None Include="expo.bmp" />
+    <None Include="gameover.bmp" />
+    <None Include="highscorePage.bmp" />
+    <None Include="Logo4.bmp" />
+    <None Include="maxresdefault.jpg" />
+    <None Include="menu.bmp" />
+    <None Include="menu2.bmp" />
+    <None Include="Menu3.bmp" />
+    <None Include="military.bmp" />
+    <None Include="pakshoot.bmp" />
+    <None Include="pakt.bmp" />
+    <None Include="pakt2.bmp" />
+    <None Include="Road1.bmp" />
+    <None Include="Road2.bmp" />
+    <None Include="s1.bmp" />
+    <None Include="s2.bmp" />
+    <None Include="s3.bmp" />
+    <None Include="success.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WARS71.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

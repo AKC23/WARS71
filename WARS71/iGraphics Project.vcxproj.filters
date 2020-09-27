@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdshoot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdshoot2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdshoot3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdt2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdt3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bomb2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bomb3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="control.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="control1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="credit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="credit2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="expo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="maxresdefault.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="military.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pakshoot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pakt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pakt2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Road1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Road2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Logo4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Menu3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bdbomb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gameover.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="success.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="highscorePage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WARS71.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+		Point	Name
+
+		50	Joy
+		45	Shafi
+		41	Ruddra
+		40	Ahmad
+		38	Wasi
+		37	Robert
+		32	Sonia
+		27	John
+
+			
+
