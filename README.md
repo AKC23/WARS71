@@ -9,9 +9,9 @@
 
 **Integer 43, CSE Department, AUST
 
-# In our Software Development Lab, we had to make a game as a project. We chose to make a game which will uphold our Liberation War between Bangladesh and Pakistan in 1971.
+** In our Software Development Lab, we had to make a game as a project. We chose to make a game which will uphold our Liberation War between Bangladesh and Pakistan in 1971.
 
-# P.S. The word 'WARS' came from the first letter of our nicknames.
+** P.S. The word 'WARS' came from the first letter of our nicknames.
 
 **YouTube Link of the game: https://youtu.be/HUmatUBH9N8
 
